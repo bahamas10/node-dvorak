@@ -5,7 +5,7 @@
   "version": "0.0.0",
   "repository": {
     "type": "git",
-    "url": "git://github.com:bahamas/node-dvorak.git"
+    "url": "git://github.com/bahamas/node-dvorak.git"
   },
   "scripts": {
     "test": "node tests/test.js"

@@ -4,19 +4,19 @@ dvorak
 Convert between the Qwerty and Dvorak keyboard layout
 
 Install
-=======
+------
 
     npm install dvorak
 
 Usage
-=====
+-----
 
 ``` js
 var dvorak = require('dvorak');
 ```
 
 Example
-=======
+-------
 
 ``` js
 > var dvorak = require('./index')
@@ -30,7 +30,7 @@ undefined
 ```
 
 Tests
-=====
+-----
 
     dave @ [ bahamas10 :: (Darwin) ] ~/dev/node-dvorak $ npm test
 
@@ -41,8 +41,9 @@ Tests
     Testing conversion from "Dvorak Test" toQwerty
     Testing conversion from "Qwerty Test" toDvorak
     Testing full conversion cycle with "Reverse Test"
+    Testing Symbols with "Symbol Test ! @ # $ % ^ & * ( ) { } [ ] ?"
 
 License
-=======
+-------
 
 MIT Licensed
