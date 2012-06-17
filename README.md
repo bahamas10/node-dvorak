@@ -6,14 +6,29 @@ Convert between the Qwerty and Dvorak keyboard layout
 Install
 ------
 
+Install locally to use as a madule
+
     npm install dvorak
+
+Install globally to use the command-line tool dvorak(1)
+
+    npm install -g dvorak
 
 Usage
 -----
 
+as a module
+
 ``` js
 var dvorak = require('dvorak');
 ```
+
+as a command-line tool (conversion to dvorak is assumed)
+
+   ~$ echo 'asdf' | ./dvorak
+   aoeu
+   ~$ echo 'aoeu' | ./dvorak qwerty
+   asdf
 
 Example
 -------

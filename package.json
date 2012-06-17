@@ -2,7 +2,7 @@
   "author": "Dave Eddy <dave@daveeddy.com> (http://www.daveeddy.com)",
   "name": "dvorak",
   "description": "Convert qwerty to dvorak and vice versa",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "repository": {
     "type": "git",
     "url": "git://github.com/bahamas10/node-dvorak.git"
@@ -13,6 +13,9 @@
   "dependencies": {},
   "devDependencies": {},
   "optionalDependencies": {},
+  "bin": {
+    "dvorak": "./bin/dvorak.js"
+  },
   "engines": {
     "node": "*"
   }
