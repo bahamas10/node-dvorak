@@ -25,16 +25,16 @@ var dvorak = require('dvorak');
 
 as a command-line tool (conversion to dvorak is assumed)
 
-    ~$ echo 'asdf' | ./dvorak
+    ~$ echo 'asdf' | dvorak
     aoeu
-    ~$ echo 'aoeu' | ./dvorak qwerty
+    ~$ echo 'aoeu' | dvorak qwerty
     asdf
 
 Example
 -------
 
 ``` js
-> var dvorak = require('./index')
+> var dvorak = require('dvorak')
 undefined
 > dvorak.toQwerty('aoeu')
 'asdf'
