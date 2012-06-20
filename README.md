@@ -6,11 +6,11 @@ Convert between the Qwerty and Dvorak keyboard layout
 Install
 ------
 
-Install locally to use as a madule
+Install locally to use as a module
 
     npm install dvorak
 
-Install globally to use the command-line tool dvorak(1)
+Install globally to use the command-line tool `dvorak`
 
     npm install -g dvorak
 
