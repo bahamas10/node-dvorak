@@ -18,5 +18,6 @@
   },
   "engines": {
     "node": "*"
-  }
+  },
+  "keywords": [ "dvorak", "convert", "translate", "qwerty", "layout", "keyboard" ]
 }
