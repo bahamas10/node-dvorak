@@ -1,3 +1,4 @@
+[![build status](https://secure.travis-ci.org/bahamas10/node-dvorak.png)](http://travis-ci.org/bahamas10/node-dvorak)
 dvorak
 ======
 
